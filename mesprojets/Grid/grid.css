@@ -1,0 +1,41 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#grid-container
+{
+    display: grid;
+    grid-template-areas: 
+    "i1 i2 i3 i4"
+    "i1 i5 i5 i5"
+    "i1 . i6 i6";
+}
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 40%;
+    font-size: 2em;
+    border-radius: 10px;
+}
+.item1{
+    grid-area: i1;
+}
+.item2{
+    grid-area: i2;
+}
+.item3{
+    grid-area: i3;
+}
+.item4{
+    grid-area: i4;
+}
+.item5{
+    grid-area: i5;
+}
+item6{
+    grid-area: i6;
+}

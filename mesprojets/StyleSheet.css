@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    font-size: 3em;
+    text-align: center;
+}
+span, span1{
+    Font-size:2em;
+}
+paragraphe{
+    text-align:justify
+}
+paragraphe1,span{
+    Color:rgb(128, 0, 128)
+}
+span1{
+color:rgb(8, 212, 8);
+    font-style: italic;
+}
+h2:hover{
+    color:red
+}

@@ -1,0 +1,48 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#container{
+display:flex;
+justify-content: space-between;
+height: 100%;
+font-size: 3em;
+}
+#contenu {
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+}
+/* Follow HTMLFiles for the order which they are going to show up. Then adjust the selection of them.
+Todo :: get more comfortable with the way to split the info on the page.
+Recode the rest of the code until you get the right info showing up.*/
+
+.nav{
+background-color: rgb(136, 247, 255);
+flex-grow: 20;
+}
+.Header{
+background-color: crimson;
+height: 20vh;
+flex-grow: 80;
+align-content: stretch;
+}
+.Footer{
+    background-color: darkgreen;
+    flex-grow: 60;
+    height: 20vh;
+
+}
+.Article{
+    background-color: darkcyan;
+    align-self: center;
+    min-height: 60vh;
+}
+.Aside{
+    background-color: darkmagenta;
+    flex-grow: 20;
+    min-height: 60vh;
+    align-content: flex-end;
+}

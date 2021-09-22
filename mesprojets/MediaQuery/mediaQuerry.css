@@ -1,0 +1,104 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 0px;
+    margin: 0px;
+}
+#entete{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    min-height: 100px;
+    height: 20vh;
+    
+
+}
+.tete{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+   
+}
+.soustitre{
+    align-self: center;
+    justify-content: center;
+}
+
+.Hyperlink{
+    background-color:grey;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    font-size: 20px;
+}
+a:hover{
+    background-color: blue;
+    color:crimson;
+}
+.Hyperlink > a{
+    padding: 14px;
+    text-decoration: none;
+}
+#Main
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.moi
+{
+    background-color: darkslateblue;
+    min-width: 20%;
+    height: 100%;
+    height: auto;
+    
+}
+.moi p{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: dimgray;
+    margin: 20px;
+}
+.moi .description{
+    justify-content: center;
+    text-align: justify;
+    height: 30%;
+    width: 90%;
+    background-color: dimgray;
+    margin: 20px;
+    
+}
+.article
+{
+text-align: center;
+display: flex;
+background-color: darkturquoise;
+min-width: 80%;
+flex-direction: column;
+}
+.article h1{
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    text-decoration: underline;
+}
+.article .image{
+display: flex;
+min-width: 60%;
+min-height: 300px;
+background-color: firebrick;
+border-style: groove;
+border-color: black;
+border-width: 3px;
+}
+.DescArt{
+display: flex;
+}
+
+#footer{
+    background-color: blue;
+    height: 20vh;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+}

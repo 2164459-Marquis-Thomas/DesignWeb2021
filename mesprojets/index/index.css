@@ -1,0 +1,10 @@
+#container{
+    Flex:display;
+    flex-flow: row wrap;
+}
+
+
+
+body{
+    background-color: grey;
+}

@@ -1,0 +1,15 @@
+*{
+display: flex;
+flex-direction: column;
+}
+.tete{
+    flex-direction: column;
+    height: auto;
+}
+.Hyperlink{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+    
